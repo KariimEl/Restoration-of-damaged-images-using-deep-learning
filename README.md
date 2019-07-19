@@ -10,7 +10,9 @@ The objective of this project is to implement in python a deteriorated image res
 Generally in Deep Learning, you have to adjust 2 things:
 - the dataset on which the network will train.
 - the structure of the neuron network.
+
 One can naively think that without a dataset, we can't train a neural network. This project of image restoration proves the opposite.
 Inspired by the works of researchers Dmitry Ulyanov, Andrea Vedaldi and Victor Lempitsky in "Deep Image Prior", I came up with the concluson that a neuron network without a dataset and with a good structure can produce better predictions than a poorly structured neural network with a large training dataset.
+
 That's why i will not use a training dataset here. The results will only be due to the structure of the network.
 
