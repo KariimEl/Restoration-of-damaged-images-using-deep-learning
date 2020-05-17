@@ -18,13 +18,13 @@ The goal of this project is to achieve a deep neural network that performs resto
 
 To carry out this project, we put into play 4 images:
 - The original image: it is the unaltered image, with no missing information. We will never give this image to the neural network. We used it to compare visually with the output of the neural network. We also used it in our program to create the deteriorated image. 
-<img src="./Figures/Original_img.png" width=300 align=right>
+<img src="./Figures/Original_img.png" width=300>
 - The damaged image: This is the image for which a part of information is missing. 
-![image](./Figures/damaged_img.png)
+<img src="./Figures/damaged_img.png" width=300>
 - The input image: This is the input image of the model initialied randomly.
-![image](./Figures/initial_img.png)
+<img src="./Figures/initial_img.png" width=300>
 - The output image: This image is produced by the model when given the initial random input image.
-![image](./Figures/output_img.png)
+<img src="./Figures/output_img.png" width=300>
 
 
 
