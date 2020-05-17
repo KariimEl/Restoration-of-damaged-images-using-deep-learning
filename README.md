@@ -16,9 +16,9 @@ The objective of this project is to implement in Pytorch a deteriorated image re
 
 The goal of this project is to achieve a deep neural network that performs restoration to deteriorated images. 
 
-To carry out this project, we put into play 4 images (example in Figure 1):
+To carry out this project, we put into play 4 images:
 - The original image: it is the unaltered image, with no missing information. We will never give this image to the neural network. We used it to compare visually with the output of the neural network. We also used it in our program to create the deteriorated image. 
-![image](./Figures/Original_img.png)
+<img src="./Figures/Original_img.png" width=300 align=right>
 - The damaged image: This is the image for which a part of information is missing. 
 ![image](./Figures/damaged_img.png)
 - The input image: This is the input image of the model initialied randomly.
