@@ -1,6 +1,6 @@
 # Restoration-of-damaged-images-using-deep-learning
 
-### Overview
+## Overview
 Academic project oriented by Prof. Guillaume Bourmaud at Bordeaux INP - ENSEIRB MATMECA [Bordeaux Graduate School of Engineering]:    
 
 Pytorch implementation of a deteriorated image restoration algorithm based on “[Deep Image Prior](https://dmitryulyanov.github.io/deep_image_prior)” research paper.
@@ -10,9 +10,9 @@ Pytorch implementation of a deteriorated image restoration algorithm based on �
 When an image has deteriorated, that is to say that some of the visual content is lost, it is sometimes important to perform a restoration step "inpainting". This step usually involves recreating visual information at damaged locations so that a human being can not say that it is a deteriorated image that has been restored.
 The objective of this project is to implement in Pytorch a deteriorated image restoration algorithm using an approach based on neural networks.
 
-### Method
+## Method
 
-## Introduction
+### Introduction
 
 Deep networks are applied to image restoration by learning generator networks that map a random initial image x to an image x0. This approach can be used to solve inverse problems such as denoising and super-resolution. In our case, we use it for inpainting.
 
@@ -28,13 +28,16 @@ To carry out this project, we put into play 4 images:
 
 In this project, we have implemented a U-Net type “hourglass” architecture as in the research paper and also a Seg-Net architecture to compare the results of both architectures.
 
-<img src="./Figures/U_net.png" width=300, align = "left">
-<img src="./Figures/Seg_net.png" width=300, align = "right">
+### U-Net architecture
+<img src="./Figures/U_net.png">
+
+### Seg-Net architecture
+<img src="./Figures/Seg_net.png">
 
 
 
 
-### Contributors, Contact and License
+## Contributors, Contact and License
 
 Abdelkarim ELASSAM,  2019  
 abdelkarim.elassam@enseirb-matmeca.fr  
