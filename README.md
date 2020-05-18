@@ -72,6 +72,12 @@ The original image:
 
 <img src="./Figures/original_img_face.jpg" width=300>
 
+## Conclusion
+
+We managed to restore deteriorated images thanks to the two architectures: SegNet, U-Net.
+The results are also very close. U-Net proves slightly better on catering with a writing mask. The Seg-Net is however much more efficient when the mask is a larger rectangle ( equivalent to larger data missing). This result is all the more astonishing that it was not the architecture recommended by the researchers, nor the more complex of the two.
+Our project shows the importance of the choice of parameters and the structure of a Deep Learning network. Indeed, even without learning we find acceptable results.
+
 ## Contributors, Contact and License
 
 Abdelkarim ELASSAM,  2019  
