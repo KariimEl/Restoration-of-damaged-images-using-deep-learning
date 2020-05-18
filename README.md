@@ -37,10 +37,14 @@ In this project, we have implemented a U-Net type “hourglass” architecture a
 ### Results
 
 #### Image of a landscape
-The damaged image: <img src="./Figures/damaged_img_landscape.jpg">
-The output image of U-Net: <img src="./Figures/output_img_landscape_U_net.jpg">
-The output image of Seg-Net: <img src="./Figures/output_img_landscape_Seg_net.jpg">
-The original image: <img src="./Figures/original_img_landscape.jpg">
+The damaged image: 
+<img src="./Figures/damaged_img_landscape.jpg" width=300>
+The output image of U-Net: 
+<img src="./Figures/output_img_landscape_U_net.jpg" width=300>
+The output image of Seg-Net: 
+<img src="./Figures/output_img_landscape_Seg_net.jpg" width=300>
+The original image: 
+<img src="./Figures/original_img_landscape.jpg" width=300>
 
 #### Image of a face
 The damaged image: <img src="./Figures/damaged_img_face.png">
