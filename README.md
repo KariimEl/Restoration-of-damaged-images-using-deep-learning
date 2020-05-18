@@ -55,11 +55,22 @@ The original image:
 
 
 #### Image of a face
-The damaged image: <img src="./Figures/damaged_img_face.png">
-The output image of U-Net: <img src="./Figures/output_img_face_U_net.png">
-The output image of Seg-Net: <img src="./Figures/output_img_face_Seg_net.png">
-The original image: <img src="./Figures/original_img_face.png">
 
+The damaged image: 
+
+<img src="./Figures/damaged_img_face.jpg" width=300>
+
+The output image of U-Net: 
+
+<img src="./Figures/output_img_face_U_net.jpg" width=300>
+
+The output image of Seg-Net: 
+
+<img src="./Figures/output_img_face_Seg_net.jpg" width=300>
+
+The original image: 
+
+<img src="./Figures/original_img_face.jpg" width=300>
 
 ## Contributors, Contact and License
 
